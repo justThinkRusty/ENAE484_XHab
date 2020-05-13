@@ -1,0 +1,69 @@
+
+*** 06:13:34 *** 
+Starting Nastran Exporter
+
+*** 06:13:34 *** 
+Writing file D:\Documents\SP 2020\Capstone\My Github 
+Files\My-Capstone-CAD\Floor\floorlayout_sim1-statics_sim_-_pressure_load.dat
+ 
+*** 06:13:34 *** 
+Writing SIMCENTER NASTRAN 2019.2 compatible deck
+
+*** 06:13:34 *** 
+Writing Nastran System section
+
+*** 06:13:34 *** 
+Writing File Management section
+
+*** 06:13:34 *** 
+Writing Executive Control section
+
+*** 06:13:34 *** 
+Writing Case Control section
+
+*** 06:13:35 *** 
+Writing Bulk Data section
+
+*** 06:13:35 *** 
+Writing Nodes
+
+*** 06:13:37 *** 
+Writing Elements
+
+*** 06:13:51 *** 
+Writing Physical Properties
+
+*** 06:13:51 *** 
+Writing Materials
+
+*** 06:13:51 *** 
+Writing Degree-of-Freedom Sets
+
+*** 06:13:51 *** 
+Writing Loads and Constraints
+
+*** 06:13:52 *** 
+Writing Coordinate Systems
+
+*** 06:13:52 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CQUAD4   | 147209   |
+| CTRIA3   | 4        |
+| GRAV     | 1        |
+| GRID     | 152820   |
+| LOAD     | 1        |
+| MAT1     | 1        |
+| PARAM    | 6        |
+| PLOAD4   | 1        |
+| PSHELL   | 5        |
+| RBE3     | 51797    |
+| SPC      | 41194    |
++----------+----------+
+
+*** 06:13:52 *** 
+Nastran Deck Successfully Written
+

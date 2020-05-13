@@ -1,0 +1,70 @@
+
+*** 00:09:28 *** 
+Starting Nastran Exporter
+
+*** 00:09:28 *** 
+Writing file D:\Documents\SP 2020\Capstone\My Github 
+Files\My-Capstone-CAD\Floor\floorlayout_sim1-buckling_sim.dat
+ 
+*** 00:09:29 *** 
+Writing SIMCENTER NASTRAN 2019.2 compatible deck
+
+*** 00:09:29 *** 
+Writing Nastran System section
+
+*** 00:09:29 *** 
+Writing File Management section
+
+*** 00:09:29 *** 
+Writing Executive Control section
+
+*** 00:09:29 *** 
+Writing Case Control section
+
+*** 00:09:29 *** 
+Writing Bulk Data section
+
+*** 00:09:29 *** 
+Writing Nodes
+
+*** 00:09:29 *** 
+Writing Elements
+
+*** 00:09:34 *** 
+Writing Physical Properties
+
+*** 00:09:34 *** 
+Writing Materials
+
+*** 00:09:34 *** 
+Writing Degree-of-Freedom Sets
+
+*** 00:09:34 *** 
+Writing Loads and Constraints
+
+*** 00:09:34 *** 
+Writing Coordinate Systems
+
+*** 00:09:34 *** 
+Summary of Bulk Data cards written
+
++----------+----------+
+|   NAME   |  NUMBER  |
++----------+----------+
+| CQUAD4   | 46287    |
+| CTRIA3   | 2        |
+| EIGRL    | 1        |
+| GRAV     | 1        |
+| GRID     | 49959    |
+| LOAD     | 1        |
+| MAT1     | 1        |
+| PARAM    | 6        |
+| PLOAD4   | 1        |
+| PSHELL   | 5        |
+| RBE3     | 11647    |
+| SPC      | 3744     |
++----------+----------+
+
+*** 00:09:34 *** 
+Nastran Deck Successfully Written
+

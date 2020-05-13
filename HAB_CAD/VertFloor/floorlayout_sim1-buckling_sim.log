@@ -1,0 +1,114 @@
+Simcenter Nastran 2019.2 (Intel64 Family 6 Model 158 Stepping 12 Windows 10  ) Control File:
+--------------------------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(c:/program files/siemens/nx1872/nxnastran/conf/nastran.rcf[1])
+Nastran BUFFPOOL=20.0X $(c:/program files/siemens/nx1872/nxnastran/conf/nastran.rcf[4])
+Nastran DIAGA=128 DIAGB=0 $(c:/program files/siemens/nx1872/nxnastran/conf/nastran.rcf[8])
+Nastran SYSTEM(442)=2 $(command line[5])
+Nastran REAL=2137784320 $(Memory limit for MPI and other specialized modules)
+JID='D:\Documents\SP 2020\Capstone\My Github Files\My-Capstone-CAD\Floor\floorlayout_sim1-buckling_sim.dat'
+OUT='./floorlayout_sim1-buckling_sim'
+MEM=962710528
+MACH='Intel64 Family 6 Model 158 Stepping 12'
+OPER='Windows 10'
+OSV=' '
+MODEL='Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz (DESKTOP-J4GIDPN)'
+CONFIG=8666
+NPROC=8
+symbol=DELDIR='c:/program files/siemens/nx1872/nxnastran/scnas/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/siemens/nx1872/nxnastran/scnas/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/siemens/nx1872/nxnastran/scnas/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/siemens/nx1872/nxnastran/scnas/nast/tpl' $(program default)
+SDIR='c:/users/mostrow/appdata/local/temp/floorlayout_sim1-buckling_sim.T63588_34'
+DBS='c:/users/mostrow/appdata/local/temp/floorlayout_sim1-buckling_sim.T63588_34'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/SSS'
+DEL='NXNDEF'
+AUTH='28000@plm.eng.umd.edu'
+AUTHQUE=0
+MSGCAT='c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/analysis.msg'
+MSGDEST='f06'
+PROG=bundle
+NEWS='c:/program files/siemens/nx1872/nxnastran/scnas/nast/news.txt'
+UMATLIB='libnxumat.dll'
+UCRPLIB='libucreep.dll'
+--------------------------------------------------------------------------------------
+NXN_ISHELLPATH=C:\Program Files\Siemens\NX1872\nxnastran\bin
+NXN_JIDPATH=
+PATH=c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl;c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/sysnoise;c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/samcef;c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/impi/bin;c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/monitor;C:\Program Files\Java\jre1.8.0_191\bin;C:\Program Files\Siemens\NX1872\nxbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\ProgramFiles\Matlab2018b\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Mostrow\AppData\Local\Microsoft\WindowsApps;C:\Users\Mostrow\AppData\Local\GitHubDesktop\bin
+Command Line: floorlayout_sim1-buckling_sim.dat prog=bundle old=no scratch=yes sys442=2
+Current Dir: D:\Documents\SP 2020\Capstone\My Github Files\My-Capstone-CAD\Floor
+Executable:  c:/program files/siemens/nx1872/nxnastran/scnas/em64tntl/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+--------------------------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    16322 MB
+ Physical memory available:           9861 MB
+ Paging file size:                   19906 MB
+ Paging file size available:          6583 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213550 MB
+--------------------------------------------------------------------------------------
+System configuration:
+ Hostname:         DESKTOP-J4GIDPN
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 158 Stepping 12 Windows 10  
+ Model:            Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+ Clock freq.:      3600 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  16322 MB
+ Virtual memory:   19906 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: Remote capabilities not available.
+--------------------------------------------------------------------------------------
+Simcenter Nastran started  Thu Apr 23 00:09:34 EDT 2020
+ 00:09:34  Beginning Analysis
+
+ 00:09:34  Simcenter NASTRAN Authorization Information - System Attributes
+ 00:09:34  --------------------------------------------------------
+ 00:09:34  Model: Intel(R) Core(TM) i7-9700K CPU @
+ 00:09:34  Machine: Intel64 Family 6 Model 158 Stepp
+ 00:09:34  OS: Windows 10
+ 00:09:34  Version:
+ 00:09:34  License File(s): 28000@plm.eng.umd.edu
+
+
+ 00:09:49  Simcenter NASTRAN Licensing Information
+ 00:09:49  --------------------------------------
+ 00:09:49  Sold To ID:            1333569 - UNIVERSITY OF MARYLAN
+ 00:09:49  Webkey Access Code:    Y39QANOK64
+ 00:09:49  License File Issuer:   SIEMENS
+
+
+ 00:09:49  Simcenter NASTRAN Authorization Information - Checkout Successful
+ 00:09:49  -----------------------------------------------------------------
+ 00:09:49  License for module Simcenter Nastran Basic - NX Desktop (Bundle)  checked out successfully
+
+ 00:09:49  Loading Shared Library C:\Program Files\Siemens\NX1872\nxcae_extras\tmg\exe\mayamoncomm.dll
+
+Starting viewer with UGII_MONITOR_DIR set to 'C:\Program Files\Siemens\NX1872\nxcae_extras\tmg\exe'
+Starting monitor viewer at C:\Program Files\Siemens\NX1872\nxcae_extras\tmg\exe/xcsmon_viewer.exe
+ 00:09:50  Analysis started.
+ 00:09:50  Geometry access/verification to CAD part initiated (if needed).
+ 00:09:50  Geometry access/verification to CAD part successfully completed (if needed).
+ 00:09:52  Finite element model generation started.
+ 00:09:53  Finite element model generated 299754 degrees of freedom.
+ 00:09:53  Finite element model generation successfully completed.
+ 00:09:53  Application of Loads and Boundary Conditions to the finite element model started.
+ 00:09:53  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 00:09:53  Application of Loads and Boundary Conditions to the finite element model started.
+ 00:09:53  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 00:09:57  Solution of the system equations for linear statics started.
+ 00:09:57  Solution of the system equations for linear statics successfully completed.
+ 00:10:32  NSEXIT: EXIT(0)
+ 00:10:32  Analysis complete  0
+Real:       58.294 seconds ( 0:00:58.294)
+User:       40.171 seconds ( 0:00:40.171)
+Sys:         1.296 seconds ( 0:00:01.296)
+Simcenter Nastran finished Thu Apr 23 00:10:32 EDT 2020
