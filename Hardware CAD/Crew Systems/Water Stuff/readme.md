@@ -1,1 +1,4 @@
-im trying to put the water stuff in a dedicated file 
+all the water processing systems and the tanks 
+surface habs all have the same tank
+micro gs have labelled tanks
+- Lauren Weist
